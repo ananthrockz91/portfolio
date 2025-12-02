@@ -22,9 +22,7 @@ export function Hero() {
                         transition={{ duration: 0.5 }}
                         className="flex flex-col items-center md:items-start text-center md:text-left space-y-6"
                     >
-                        <div className="inline-block rounded-full bg-secondary/50 px-3 py-1 text-sm text-secondary-foreground backdrop-blur-sm border border-white/10">
-                            Available for new opportunities
-                        </div>
+
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-white via-white to-white/50">
                             Ananth Kumar
                         </h1>
