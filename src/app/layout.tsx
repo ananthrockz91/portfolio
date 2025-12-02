@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import { StarsBackground } from "@/components/StarsBackground";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -36,6 +37,7 @@ export default function RootLayout({
           "min-h-screen bg-background font-sans text-foreground antialiased selection:bg-primary/20 selection:text-primary"
         )}
       >
+        <StarsBackground />
         {children}
       </body>
     </html>
