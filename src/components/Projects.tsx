@@ -116,7 +116,7 @@ const projects = [
         tags: ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
         fullstack: false,
         links: {
-            github: "#"
+            github: "https://github.com/ananthrockz91/portfolio"
         }
     }
 ];
