@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, MapPin, Phone, Linkedin, Github } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Contact() {
@@ -16,7 +16,7 @@ export function Contact() {
                 >
                     <h2 className="text-3xl md:text-4xl font-bold mb-8">Get In Touch</h2>
                     <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-12">
-                        I'm currently open to new opportunities and collaborations. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                        I&apos;m currently open to new opportunities and collaborations. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
